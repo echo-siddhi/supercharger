@@ -12,7 +12,15 @@ class Log {
             Log.d(spawnTag(), message)
         }
 
+        fun d(tag: String, message: String) {
+            Log.d(spawnTag(), message)
+        }
+
         fun d(message: String, throwable: Throwable) {
+            Log.d(spawnTag(), message, throwable)
+        }
+
+        fun d(tag: String, message: String, throwable: Throwable) {
             Log.d(spawnTag(), message, throwable)
         }
 
