@@ -12,7 +12,7 @@ class Log {
             Log.d(spawnTag(), message)
         }
 
-        fun d(tag: String, message: String) {
+        fun d(tag: String = "", message: String) {
             Log.d(spawnTag(), message)
         }
 
@@ -20,7 +20,7 @@ class Log {
             Log.d(spawnTag(), message, throwable)
         }
 
-        fun d(tag: String, message: String, throwable: Throwable) {
+        fun d(tag: String = "", message: String, throwable: Throwable) {
             Log.d(spawnTag(), message, throwable)
         }
 
